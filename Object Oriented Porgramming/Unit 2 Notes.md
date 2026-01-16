@@ -26,7 +26,22 @@ Literal values have data types
 
 Staticlly typed languages are C, Java, Java Script, C-sharp, HTML wheras python is a dynamically typed language. Static languages you must determine the data of the variable at compile time whereas python there is no decleration. 
 
-A constant is a value that cannot be changed. Use uppercase letters with underscores to separating words.
+A constant is a value that cannot be changed. Use uppercase letters with underscores to separating words. They are usually created in a module. 
+
+Type conversion is the process of converting the value of one data type to any other data type. 
+
+Implicit casting - Python interpreter automatically converts one datatype to another 
+
+Explicit casting - Changes a datatype manually or force it to be changed. Put the datatype you want before said variable.
+
+Print is a built in fuction which displays a specific message to the screen.
+
+\t is insert horizontal tab
+\n is newline character
+\\ is insert a backslash character in a string 
+\" is insert double quotes character in a string 
+\' is insert single quotes character in a string
+
 
 
 
