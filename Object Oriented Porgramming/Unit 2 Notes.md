@@ -26,6 +26,8 @@ Literal values have data types
 
 Staticlly typed languages are C, Java, Java Script, C-sharp, HTML wheras python is a dynamically typed language. Static languages you must determine the data of the variable at compile time whereas python there is no decleration. 
 
+A constant is a value that cannot be changed. Use uppercase letters with underscores to separating words.
+
 
 
 
