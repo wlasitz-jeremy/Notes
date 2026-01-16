@@ -42,11 +42,26 @@ Print is a built in fuction which displays a specific message to the screen.
 \" is insert double quotes character in a string 
 \' is insert single quotes character in a string
 
+Arithmetic operations are a combination of operators and operands which are variables or values and parenthesis
 
+Addition +
+Subtraction -
+Multiplication *
+Exponential **
+True Division /
+Floor Division //
+Remainder %
 
+Precedence rules: 
 
+BODMAS
 
+-Brackets
+-Orders
+-Multiplication and or Division
+-Addition and or Subtraction
 
+Aaugmented Assignment Operators
 
 
 
