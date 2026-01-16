@@ -19,7 +19,7 @@ Naming Conventions for variables:
 -Snake case: put underscore between words = first_name
 -Pascal case: Capitalize first latter in each word = FirstName 
 
-Literal values have data types
+Literal values have data types:
 -Numeric is an integer
 -String encloses a sequence of variables in single or double quotations
 -Boolean data types are either true or false
@@ -36,11 +36,13 @@ Explicit casting - Changes a datatype manually or force it to be changed. Put th
 
 Print is a built in fuction which displays a specific message to the screen.
 
-\t is insert horizontal tab
-\n is newline character
-\\ is insert a backslash character in a string 
-\" is insert double quotes character in a string 
-\' is insert single quotes character in a string
+Escape charachters are to insert characters that are illegal in a string:
+
+    \t is insert horizontal tab
+    \n is newline character
+    \\ is insert a backslash character in a string 
+    \" is insert double quotes character in a string 
+    \' is insert single quotes character in a string
 
 Arithmetic operations are a combination of operators and operands which are variables or values and parenthesis
 
