@@ -38,9 +38,18 @@ Common Topologies:
 -Star: Each node connects to a common central point, typically a switch. The most common small network topology.
 -Mesh: Full: Each node is connected to every other node using a point-to-point connection. Partial: Some nodes are connected to every other node, other are connected to select other nodes
 
+Hubs and Switches:
+-All work at Layer 2 of the OSI reference model
 
+-Hubs forward frames out of every port except the port on which the frame was received, like a broadcast frame. Frames can collide on the media, causing problems in transmission. Requires half-duplex, send or receive, not both.
+-
+Switches use a MAC address table to track which MAC address is attached to which switchport, which means that each frame can be forwarded to the specific device to which it is destined instead of flooded out every port. Can operate in full-duplex, send and receive.
 
+A collision domain is a media segment where collisions can occur. A hub forwards all traffic out of every port, all media segments are considered as part of the same collision domain. A switch breaks up collision domains, because frames are sent only to the port where the MAC address is attatched. This makes a switch more efffective and efficient .It cuts down on collisions making re-transmission of frames less frequent. 
 
+A switch learns which MAC address is connected to each port by reading the source MAC address from incoming frames on the port. This MAC address/port combination gets added to the MAC address table and refreshed over time to ensure that information in the MAC address table is accurate. 
+The switch then uses the MAC address table to compare destination addresses to determine which switchport to forward them out of.
+*Some switches have a type of memory called ‘Content Addressable Memory, so the MAC address table may also be called the CAM table.*
 
 
 
