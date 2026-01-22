@@ -8,4 +8,4 @@ Tags:
 -nav is to navigate around the site
 -section groups common pieces of text togrther
 -div is grouping for styalistic concerns
--span is
+-span is for in line elements
