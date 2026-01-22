@@ -63,7 +63,7 @@ IPv6 Address Types:
 -Link Local – Unique addresses usable only inside the local network. Addresses begin with FE80::/10 
 -Multicast – Group addresses that configured devices will receive packets on only if directed to do so. Addresses begin with FF00::/8
 
-
+IPv4 has special addresses which are loopback and apipa. 
 
 
 
